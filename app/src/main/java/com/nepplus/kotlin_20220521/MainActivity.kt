@@ -73,8 +73,24 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"성인입니다.", Toast.LENGTH_SHORT).show()
 
             }
+            else if(userAge >=17){
+
+                Toast.makeText(this, "고등학생입니다.", Toast.LENGTH_SHORT).show()
+
+
+            }
+            else if(userAge >=14){
+
+                Toast.makeText(this, "중학생입니다.", Toast.LENGTH_SHORT).show()
+
+
+            }
+
+
+
+
             else{
-                Toast.makeText(this, "미성년자입니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "초등학생 or 미취학아동입니다.", Toast.LENGTH_SHORT).show()
 
 
             }
