@@ -44,6 +44,41 @@ class MainActivity : AppCompatActivity() {
             name1 = "박철수"
 //            name2 = "최영희"
 
+//            name1, name2에 기록한 값 로그로 찍어보기
+
+            Log.d("변수",name1)   //내부에 들어있는 "박철수"클릭
+            Log.d("변수",name2)
+
+            val adress = "서울시 동대문구"
+
+            Toast.makeText(this,adress, Toast.LENGTH_SHORT).show()
+
+
+
+
+
+        }
+
+        btnCondition.setOnClickListener{
+
+            val userAge = 15  //Int 형태.
+
+
+//              나이가 20살 이상이라면? => "성인입니다." 토스트로
+
+//            그렇지 않다면 => "미성년자입니다." 토스트로
+
+            if (userAge>=20) {
+
+                Toast.makeText(this,"성인입니다.", Toast.LENGTH_SHORT).show()
+
+            }
+            else{
+                Toast.makeText(this, "미성년자입니다.", Toast.LENGTH_SHORT).show()
+
+
+            }
+
 
 
 
