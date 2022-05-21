@@ -14,6 +14,24 @@
         android:layout_height="wrap_content"
         android:text="로그 찍어보기" />
 
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 눌러보기" />
+
+    <Button
+        android:id="@+id/btnVariable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="변수문법연습"
+        />
+
+
+
+
+
+
 
 
 
